@@ -55,7 +55,10 @@ const rentCarSchema = new mongoose.Schema({
     airpress: { present: Boolean, remarks: String },
     cleaningCloth: { present: Boolean, remarks: String },
     airConditioner: { present: Boolean, remarks: String },
-    lights: { present: Boolean, remarks: String }
+    lights: { present: Boolean, remarks: String },
+    jackRod: { present: Boolean, remarks: String },
+    spanner: { present: Boolean, remarks: String },
+    stepny: { present: Boolean, remarks: String },
   },
 
   createdAt: {
